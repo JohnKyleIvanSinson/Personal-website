@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ani-Score</title>
+    <title>Ani-Scope</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: url('Halloween theme/BKG.png') no-repeat center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .Ani-Score {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+        }
+
+        .Description, .TopAnime {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+
+        .Description {
+            top: 50px;
+        }
+
+        .TopAnime {
+            top: 250px;
+        }
+
+        .image-container {
+            position: fixed;
+            right: 20px;
+            top: 90px;
+        }
+
+        .image-container div {
+            margin-bottom: 10px;
+        }
+
+        .image-container img {
+            width: 170px;
+            height: auto;
+        }
+
+    </style>
 </head>
 <body>
-        <h1>Ani-Score</h1>
+   
+    <img src="Images/Ani-Scope.png" alt="Ani-Score" class="Ani-Score">
+
+    <div class="Description">
+        <img src="Images/Description.png" alt="Description" width="500" height="300">
+    </div>
+    
+    <div class="TopAnime">
+        <img src="Images/TopAnime.png" alt="TopAnime" width="400" height="200">
+    </div>
+
+    <div class="image-container">
+        <div class="review">
+            <a href="Review.html">
+                <img src="Halloween theme/halloween4.png" alt="Review">
+            </a>
+        </div>
+        <div class="top-anime">
+            <a href="Top-Anime.html">
+                <img src="Halloween theme/halloween5.png" alt="TopAnime">
+            </a>
+        </div>
+        <div class="news">
+            <a href="News.html">
+                <img src="Halloween theme/halloween6.png" alt="News">
+            </a>
+        </div>
+        <div class="contact">
+            <a href="Contact.html">
+                <img src="Halloween theme/halloween7.png" alt="Contact">
+            </a>
+        </div>
+    </div>
+
 </body>
 </html>
