@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ani-Scope</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: url(Images/BACKGROUND.png) no-repeat center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Ani-Score logo and link container */
+        .ani-score-container {
+            display: flex;
+            align-items: center;
+            margin: 10px 0 0 10px;
+        }
+
+        .Ani-Score {
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        /* Links next to Ani-Score */
+        .link-container {
+            display: flex;
+            gap: 50px;
+        }
+
+        .link-container div img {
+            width: 223px;
+            height: 139px;
+            display: block;
+        }
+
+        /* Center-aligned content */
+        .Description, .TopAnime {
+            width: 100%;
+            text-align: center;
+            margin-top: -50px;
+        }
+
+        /* Top Anime images */
+        .top-anime-images {
+            display: flex;
+            justify-content: center; /* Center the images */
+            gap: 20px; /* Space between images */
+            margin-top: 20px; /* Space above the top anime images */
+        }
+
+        .top-anime-images img {
+            width: 150px; /* Adjust width as needed */
+            height: 200px; /* Adjust height as needed */
+        }
+
+        /* Genres section */
+        .genres {
+            position: absolute;
+            right: 10px;
+            top: 200px;
+            display: flex;
+            flex-direction: column;
+            gap: 38px;
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .genre a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ani-Score logo and links next to it -->
+    <div class="ani-score-container">
+        <img src="Images/Ani-Scope.png" alt="Ani-Score" class="Ani-Score">
+        <div class="link-container">
+            <div class="review">
+                <a href="Review.html">
+                    <img src="Images/4-removebg-preview.png" alt="Review">
+                </a>
+            </div>
+            <div class="top-anime">
+                <a href="Top-Anime.html">
+                    <img src="Images/5-removebg-preview.png" alt="Top Anime List">
+                </a>
+            </div>
+            <div class="news">
+                <a href="News.html">
+                    <img src="Images/6-removebg-preview.png" alt="News & Updates">
+                </a>
+            </div>
+            <div class="contact">
+                <a href="Contact.html">
+                    <img src="Images/7-removebg-preview.png" alt="Contact Us">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Centered images for Description and Top Anime -->
+    <div class="Description">
+        <img src="Images/Description.png" alt="Description" width="500" height="300">
+    </div>
+    
+    <div class="TopAnime">
+        <img src="Images/TopAnime.png" alt="Top Anime" width="400" height="200">
+    </div>
+
+    <!-- Top 5 Anime Images Section -->
+    <div class="top-anime-images">
+        <img src="Top 5 Anime/0cbea52ea19c02210338579902e7b25f.jpg" alt="Anime 1">
+        <img src="Top 5 Anime/759be6123c04435f513506e3b1cfe3e4.jpg" alt="Anime 2">
+        <img src="Top 5 Anime/925d945ac7230b173967b5f98216ddeb.jpg" alt="Anime 3">
+        <img src="Top 5 Anime/9954a76812119ee73c660ebbca3f9fe5.jpg" alt="Anime 4">
+        <img src="Top 5 Anime/e84aff77e015d1a9b2105fe46f32b2a2.jpg" alt="Anime 5">
+    </div>
+
+    <!-- Genres Section -->
+    <div class="genres">
+        <div class="genre"><a href="Horror.html">HORROR</a></div>
+        <div class="genre"><a href="Fighting.html">FIGHTING</a></div>
+        <div class="genre"><a href="Sad.html">SAD</a></div>
+        <div class="genre"><a href="Funny.html">FUNNY</a></div>
+        <div class="genre"><a href="Romance.html">ROMANCE</a></div>
+    </div>
+
+</body>
+</html>
 
