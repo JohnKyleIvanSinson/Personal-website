@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Top-Anime</title>
+</head>
+<body>
+    <a href="Index.html">
+        <img src="Images/Goback.png" alt="Go Back" width="160">
+    </a>
+    <div>
+        <img src="Images/Ani-Scope.png" alt="Ani-Score" width="200">
+    </div>
+    <div>
+        <div>
+            <div>🛡️</div>
+            <h3>Attack on Titan</h3>
+            <p>Humanity fights for survival against Titans.</p>
+        </div>
+        <div>
+            <div>🔥</div>
+            <h3>Demon Slayer</h3>
+            <p>Tanjiro seeks revenge and a cure for his sister.</p>
+        </div>
+        <div>
+            <div>🦸‍♂️</div>
+            <h3>My Hero Academia</h3>
+            <p>Follow the journey of aspiring heroes.</p>
+        </div>
+        <div>
+            <div>🏴‍☠️</div>
+            <h3>One Piece</h3>
+            <p>Luffy and his crew seek the ultimate treasure.</p>
+        </div>
+        <div>
+            <div>👹</div>
+            <h3>Jujutsu Kaisen</h3>
+            <p>A student battles supernatural threats with sorcery.</p>
+        </div>
+        <div>
+            <div>🔄</div>
+            <h3>Tokyo Revengers</h3>
+            <p>A man travels back in time to save his friends.</p>
+        </div>
+        <div>
+            <div>🗡️</div>
+            <h3>Sword Art Online</h3>
+            <p>Trapped in a virtual world, players must fight to survive.</p>
+        </div>
+        <div>
+            <div>🍜</div>
+            <h3>Naruto</h3>
+            <p>A young ninja seeks to become the strongest and gain respect.</p>
+        </div>
+        <div>
+            <div>📓</div>
+            <h3>Death Note</h3>
+            <p>A high school student gains the power to kill by writing names.</p>
+        </div>
+        <div>
+            <div>🏐</div>
+            <h3>Haikyuu!!</h3>
+            <p>A high school volleyball team pursues greatness.</p>
+        </div>
+        <div>
+            <div>🐉</div>
+            <h3>Fairy Tail</h3>
+            <p>Magic guild members take on adventurous missions.</p>
+        </div>
+        <div>
+            <div>🏹</div>
+            <h3>Hunter x Hunter</h3>
+            <p>A boy embarks on a journey to find his father.</p>
+        </div>
+        <div>
+            <div>⚙️</div>
+            <h3>Fullmetal Alchemist</h3>
+            <p>Two brothers seek the Philosopher's Stone.</p>
+        <
